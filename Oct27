@@ -1,0 +1,14 @@
+movie_name = input("Enter movie name:")
+ticket_price = int(input("Enter ticket price:"))
+quantity = int(input("Enter number of tickets:"))
+
+subtotal = ticket_price * quantity
+gst = subtotal * 18 / 100
+total_amount = subtotal + gst
+
+print(f"movie name is {movie_name}")
+print(f"ticket price is {ticket_price}")
+print(f"quantity is {quantity}")
+print(f"subtotal is {subtotal}")
+print(f"gst is {gst}")
+print(f"total amount is {total_amount}")
